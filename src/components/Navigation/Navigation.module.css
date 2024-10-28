@@ -1,0 +1,36 @@
+.title {
+    background-color: wite;
+    padding: 15px;
+    position: relative;
+    border-bottom: 1px gray solid;
+}
+
+.logo {
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    transform: translateY(-50%);
+}
+
+.subLogo {
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline;
+    padding: 2px;
+    margin-left: 4px;
+}
+
+.navContainer {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-start;
+    padding-left: 200px;
+    background-color: white;
+}
+
+.link {
+    border-radius: 4px;
+    padding: 8px;
+    color: black;
+}
